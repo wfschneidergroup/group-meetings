@@ -13,3 +13,4 @@
 | <2015-11-18 Wed> | Tae Bum              | Hui                                |
 | <2015-11-25 Wed> | Anshu                | Onise                              |
 
+* Test if noexport works for git				   :noexport:
