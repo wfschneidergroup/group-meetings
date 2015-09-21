@@ -1,0 +1,57 @@
+* Group Meeting Schedule
+#+tblname:schedule
+| Date             | Literature Presenter | Research Presenter                 |
+|------------------+----------------------+------------------------------------|
+| <2015-09-23 Wed> | Prateek              | Solomon                            |
+| <2015-09-30 Wed> | Sichi                | Quintin                            |
+| <2015-10-07 Wed> | Onise                | Tae Bum                            |
+| <2015-10-14 Wed> | Chris, Solomon       |                                    |
+| <2015-10-21 Wed> | Hui                  | Sichi                              |
+| <2015-10-28 Wed> | Quintin              | Anshu                              |
+| <2015-11-04 Wed> | AICHE-practice       | Prateek, Chris (Anshu @supergroup) |
+| <2015-11-11 Wed> | AICHE                | AICHE                              |
+| <2015-11-18 Wed> | Tae Bum              | Hui                                |
+| <2015-11-25 Wed> | Anshu                | Onise                              |
+
+* Group Emails
+#+tblname:emails
+| Person    | Email      |
+|-----------+------------|
+| Prateek   | pmehta1    |
+| Sichi     | sli12      |
+| Onise     | osharia    |
+| Chris     | cpaolucc   |
+| Hui       | hli8       |
+| Qunitin   | qsherida   |
+| Solomon   | sassefa    |
+| Anshu     | abajpai1   |
+| Schneider | wschneider |
+
+* Generate Directories by date
+
+#+BEGIN_SRC python
+from datetime import date, timedelta
+import os
+
+if not os.path.exists('literature'):
+    os.mkdir('literature')
+
+if not os.path.exists('research'):
+    os.mkdir('research')
+
+
+td = timedelta(days=2)
+
+w1 = date.today() + td
+
+for i in range(10):
+    d = w1 + timedelta(days=i*7)
+    lit_path = './literature/{0}'.format(d)
+    r_path = './research/{0}'.format(d)
+    for p in (lit_path, r_path):
+        if not os.path.exists(p):
+            os.mkdir(p)
+#+END_SRC
+
+#+RESULTS:
+
