@@ -1,5 +1,7 @@
 * Group Meeting Schedule
 
+[[https://goo.gl/qFPzjG][Google calendar]]
+
 | Date             | Literature Presenter | Research Presenter                 |
 |------------------+----------------------+------------------------------------|
 | <2015-09-23 Wed> | Prateek              | Solomon                            |
