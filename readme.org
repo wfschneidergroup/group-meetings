@@ -4,8 +4,8 @@
 
 | Date             | Literature Presenter | Research Presenter                 |
 |------------------+----------------------+------------------------------------|
-| <2015-09-23 Wed> | Prateek              | Solomon                            |
-| <2015-09-30 Wed> | Sichi                | Quintin                            |
+| <2015-09-23 Wed> | Prateek              | Quintin                            |
+| <2015-09-30 Wed> | Sichi                | Solomon                            |
 | <2015-10-07 Wed> | Onise                | Tae Bum                            |
 | <2015-10-14 Wed> | Chris, Solomon       |                                    |
 | <2015-10-21 Wed> | Hui                  | Sichi                              |
