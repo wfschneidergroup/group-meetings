@@ -72,7 +72,7 @@ def get_calendar_lists():
     
         calendar_list = service.calendarList().list(pageToken=page_token).execute()
         for calendar_list_entry in calendar_list['items']:
-            print calendar_list_entry['id']
+            print calendar_list_entry['id'], calendar_list_entry['summary']
         page_token = calendar_list.get('nextPageToken')
         if not page_token:
             break
@@ -139,7 +139,7 @@ def create_meeting(start, end, lit, research):
         },
     }
 
-    event = service.events().insert(calendarId='ncu6uits0eoefjtchmp6ktatak@group.calendar.google.com', body=event).execute()
+    event = service.events().insert(calendarId='b3e5dnq5qj5dlmov44dplttt6s@group.calendar.google.com', body=event).execute()
     #print 'Event created: %s' % (event.get('htmlLink'))
 
 
@@ -148,6 +148,8 @@ def create_meeting(start, end, lit, research):
 s = datetime(2015, 9, 23, 14, 0,0,0)
 
 e = datetime(2015, 9, 23, 15, 0,0,0)
+
+get_calendar_lists()
 
 for i, entry in enumerate(schedule):
     d, lit, research = entry
@@ -160,4 +162,12 @@ for i, entry in enumerate(schedule):
 #+END_SRC
 
 #+RESULTS:
+: ncu6uits0eoefjtchmp6ktatak@group.calendar.google.com Schneider Group Meetings
+: prateekmehta.in@gmail.com prateekmehta.in@gmail.com
+: pmehta1@nd.edu pmehta1@nd.edu
+: gradprofdev@gmail.com Professional Development: All
+: b3e5dnq5qj5dlmov44dplttt6s@group.calendar.google.com Group Meeting Schedule
+: #contacts@group.v.calendar.google.com Birthdays
+: en.usa#holiday@group.v.calendar.google.com Holidays in United States
+: p#weather@group.v.calendar.google.com Weather
 
