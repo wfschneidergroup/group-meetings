@@ -1,5 +1,8 @@
 * Group Meeting Schedule
-#+tblname:schedule
+
+** Fall 2015
+
+#+tblname:fall2015
 | Date             | Literature Presenter | Research Presenter |
 |------------------+----------------------+--------------------|
 | <2015-09-23 Wed> | Prateek              | Quintin            |
@@ -12,6 +15,26 @@
 | <2015-11-11 Wed> | AICHE                | AICHE              |
 | <2015-11-18 Wed> | Tae Bum              | Hui                |
 | <2015-11-25 Wed> | Anshu                | Onise              |
+
+** Spring 2016
+
+#+tblname:spring2016
+| Date             | Literature Presenter | Research Presenter |
+|------------------+----------------------+--------------------|
+| <2016-01-20 Wed> | Vasp Best Practices  | -                  |
+| <2016-01-27 Wed> | Prateek              | Chris              |
+| <2016-02-03 Wed> | Solomon              | Sichi              |
+| <2016-02-10 Wed> | Bill                 | Tae Bum            |
+| <2016-02-17 Wed> | Onise                | Hui                |
+| <2016-02-24 Wed> | Anshu                | Free Spot!         |
+| <2016-03-02 Wed> | Chris                | Quintin            |
+| <2016-03-09 Wed> | ACS-practice         | ACS-practice       |
+| <2016-03-16 Wed> | ACS                  | ACS                |
+| <2016-03-23 Wed> | Quintin              | Prateek            |
+| <2016-03-30 Wed> | Tae Bum              | Solomon            |
+| <2016-04-06 Wed> | Hui                  | Onise              |
+| <2016-04-13 Wed> | Sichi                | Anshu              |
+
 
 
 * Group Emails
@@ -26,8 +49,7 @@
 | Qunitin   | qsherida   |
 | Solomon   | sassefa    |
 | Anshu     | abajpai1   |
-| Schneider | wschneider |
-
+| Bill      | wschneider |
 
 * Generate Directories by date
 
@@ -42,7 +64,7 @@ if not os.path.exists('research'):
     os.mkdir('research')
 
 
-td = timedelta(days=2)
+td = timedelta(days=8)
 
 w1 = date.today() + td
 
@@ -52,14 +74,38 @@ for i in range(10):
     r_path = './research/{0}'.format(d)
     for p in (lit_path, r_path):
         if not os.path.exists(p):
-            os.mkdir(p)
+            #os.mkdir(p)
+	    print p
 #+END_SRC
 
 #+RESULTS:
+#+begin_example
+./literature/2016-01-20
+./research/2016-01-20
+./literature/2016-01-27
+./research/2016-01-27
+./literature/2016-02-03
+./research/2016-02-03
+./literature/2016-02-10
+./research/2016-02-10
+./literature/2016-02-17
+./research/2016-02-17
+./literature/2016-02-24
+./research/2016-02-24
+./literature/2016-03-02
+./research/2016-03-02
+./literature/2016-03-09
+./research/2016-03-09
+./literature/2016-03-16
+./research/2016-03-16
+./literature/2016-03-23
+./research/2016-03-23
+#+end_example
+
 
 * Google Calendar
 
-#+BEGIN_SRC python :var schedule=schedule
+#+BEGIN_SRC python :var schedule=spring2016
 from quickstart import *
 from datetime import datetime, timedelta
 
@@ -79,7 +125,8 @@ def get_calendar_lists():
 
 def get_emails(lit, research):
 
-    emails = {'Prateek': 'pmehta1@nd.edu',
+    emails = {'Bill': 'wschneider@nd.edu',
+              'Prateek': 'pmehta1@nd.edu',
               'Onise': 'osharia@nd.edu',
               'Chris': 'cpaolucc@nd.edu',
               'Hui': 'hli8@nd.edu',
@@ -139,15 +186,14 @@ def create_meeting(start, end, lit, research):
         },
     }
 
-    event = service.events().insert(calendarId='b3e5dnq5qj5dlmov44dplttt6s@group.calendar.google.com', body=event).execute()
+    event = service.events().insert(calendarId='ncu6uits0eoefjtchmp6ktatak@group.calendar.google.com', body=event).execute()
     #print 'Event created: %s' % (event.get('htmlLink'))
 
 
-
 # Start Date
-s = datetime(2015, 9, 23, 14, 0,0,0)
+s = datetime(2016, 1, 20, 14, 0,0,0)
 
-e = datetime(2015, 9, 23, 15, 0,0,0)
+e = datetime(2016, 1, 20, 15, 0,0,0)
 
 get_calendar_lists()
 
@@ -167,6 +213,7 @@ for i, entry in enumerate(schedule):
 : pmehta1@nd.edu pmehta1@nd.edu
 : gradprofdev@gmail.com Professional Development: All
 : b3e5dnq5qj5dlmov44dplttt6s@group.calendar.google.com Group Meeting Schedule
+: uobl34ar22hab3pb14pmidrupo@group.calendar.google.com Personal
 : #contacts@group.v.calendar.google.com Birthdays
 : en.usa#holiday@group.v.calendar.google.com Holidays in United States
 : p#weather@group.v.calendar.google.com Weather

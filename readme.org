@@ -2,6 +2,28 @@
 
 [[https://goo.gl/qFPzjG][Google calendar]]
 
+* Spring 2016
+
+| Date             | Literature Presenter | Research Presenter |
+|------------------+----------------------+--------------------|
+| <2016-01-20 Wed> | Vasp Best Practices  | -                  |
+| <2016-01-27 Wed> | Prateek              | Chris              |
+| <2016-02-03 Wed> | Solomon              | Sichi              |
+| <2016-02-10 Wed> | Bill                 | Tae Bum            |
+| <2016-02-17 Wed> | Onise                | Hui                |
+| <2016-02-24 Wed> | Anshu                | Free Spot!         |
+| <2016-03-02 Wed> | Chris                | Quintin            |
+| <2016-03-09 Wed> | ACS-practice         | ACS-practice       |
+| <2016-03-16 Wed> | ACS                  | ACS                |
+| <2016-03-23 Wed> | Quintin              | Prateek            |
+| <2016-03-30 Wed> | Tae Bum              | Solomon            |
+| <2016-04-06 Wed> | Hui                  | Onise              |
+| <2016-04-13 Wed> | Sichi                | Anshu              |
+
+
+
+* Fall 2015
+
 | Date             | Literature Presenter | Research Presenter                 |
 |------------------+----------------------+------------------------------------|
 | <2015-09-23 Wed> | Prateek              | Quintin                            |
