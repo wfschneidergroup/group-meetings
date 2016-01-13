@@ -117,8 +117,7 @@ def get_calendar_lists():
         service = discovery.build('calendar', 'v3', http=http)
     
         calendar_list = service.calendarList().list(pageToken=page_token).execute()
-        for calendar_list_entry in calendar_list['items']:
-            print calendar_list_entry['id'], calendar_list_entry['summary']
+
         page_token = calendar_list.get('nextPageToken')
         if not page_token:
             break
@@ -208,13 +207,3 @@ for i, entry in enumerate(schedule):
 #+END_SRC
 
 #+RESULTS:
-: ncu6uits0eoefjtchmp6ktatak@group.calendar.google.com Schneider Group Meetings
-: prateekmehta.in@gmail.com prateekmehta.in@gmail.com
-: pmehta1@nd.edu pmehta1@nd.edu
-: gradprofdev@gmail.com Professional Development: All
-: b3e5dnq5qj5dlmov44dplttt6s@group.calendar.google.com Group Meeting Schedule
-: uobl34ar22hab3pb14pmidrupo@group.calendar.google.com Personal
-: #contacts@group.v.calendar.google.com Birthdays
-: en.usa#holiday@group.v.calendar.google.com Holidays in United States
-: p#weather@group.v.calendar.google.com Weather
-
