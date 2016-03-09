@@ -8,18 +8,18 @@
 |------------------+----------------------+--------------------|
 | <2016-01-20 Wed> | Vasp Best Practices  | -                  |
 | <2016-01-27 Wed> | Prateek              | Chris              |
-| <2016-02-03 Wed> | Solomon              | Sichi              |
-| <2016-02-10 Wed> | Bill                 | Tae Bum            |
-| <2016-02-17 Wed> | Onise                | Hui                |
-| <2016-02-24 Wed> | Anshu                | Free Spot!         |
-| <2016-03-02 Wed> | Chris                | Quintin            |
-| <2016-03-09 Wed> | ACS-practice         | ACS-practice       |
-| <2016-03-16 Wed> | ACS                  | ACS                |
-| <2016-03-23 Wed> | Quintin              | Prateek            |
-| <2016-03-30 Wed> | Tae Bum              | Solomon            |
-| <2016-04-06 Wed> | Hui                  | Onise              |
-| <2016-04-13 Wed> | Sichi                | Anshu              |
-
+| <2016-02-03 Wed> | -                    | -                  |
+| <2016-02-10 Wed> | Solomon              | Sichi              |
+| <2016-02-17 Wed> | -                    | -                  |
+| <2016-02-24 Wed> | Bill                 | Tae Bum            |
+| <2016-03-02 Wed> | -                    | -                  |
+| <2016-03-09 Wed> | ACS/APS-practice     | Onise              |
+| <2016-03-16 Wed> | Anshu                | Hui                |
+| <2016-03-23 Wed> | Sichi                | Quintin            |
+| <2016-03-30 Wed> | Onise                | Prateek            |
+| <2016-04-06 Wed> | Hui                  | Anshu              |
+| <2016-04-13 Wed> | Quintin              | Free Spot!         |
+| <2016-04-20 Wed> | Tae Bum, Chris       |                    |
 
 
 * Fall 2015
