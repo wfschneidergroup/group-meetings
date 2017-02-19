@@ -13,7 +13,9 @@
 | <2017-03-15 Wed> | Prateek              | Sichi              |
 | <2017-03-29 Wed> | Hui                  | Anshu              |
 | <2017-04-12 Wed> | Sichi                | Prateek            |
-| <2017-04-19 Wed> | Anshu                | Hui                |
+| <2017-04-19 Wed> | Anshu                | Andrew             |
+| <2017-05-03 Wed> | ---                  | Hui                |
+
 
 * Past Meetings
 ** Spring 2016                                                     :noexport:
