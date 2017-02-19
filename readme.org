@@ -14,7 +14,7 @@
 | <2017-04-19 Wed> | Anshu                | Hui                |
 
 
-* Spring 2016
+* Spring 2016                                                      :noexport:
 
 | Date             | Literature Presenter | Research Presenter |
 |------------------+----------------------+--------------------|
@@ -34,7 +34,7 @@
 | <2016-04-20 Wed> | Tae Bum, Chris       |                    |
 
 
-* Fall 2015
+* Fall 2015                                                        :noexport:
 
 | Date             | Literature Presenter | Research Presenter                 |
 |------------------+----------------------+------------------------------------|
