@@ -7,46 +7,47 @@
 
 | Date             | Literature Presenter | Research Presenter |
 |------------------+----------------------+--------------------|
+| <2017-02-01 Wed> | Gray                 |                    |
+| <2017-02-15 Wed> | Jeonghyun            |                    |
 | <2017-03-01 Wed> | Yujia                | ---                |
 | <2017-03-15 Wed> | Prateek              | Sichi              |
 | <2017-03-29 Wed> | Hui                  | Anshu              |
 | <2017-04-12 Wed> | Sichi                | Prateek            |
 | <2017-04-19 Wed> | Anshu                | Hui                |
 
+* Past Meetings
+** Spring 2016                                                     :noexport:
 
-* Spring 2016                                                      :noexport:
+ | Date             | Literature Presenter | Research Presenter |
+ |------------------+----------------------+--------------------|
+ | <2016-01-20 Wed> | Vasp Best Practices  | -                  |
+ | <2016-01-27 Wed> | Prateek              | Chris              |
+ | <2016-02-03 Wed> | -                    | -                  |
+ | <2016-02-10 Wed> | Solomon              | Sichi              |
+ | <2016-02-17 Wed> | -                    | -                  |
+ | <2016-02-24 Wed> | Bill                 | Tae Bum            |
+ | <2016-03-02 Wed> | -                    | -                  |
+ | <2016-03-09 Wed> | ACS/APS-practice     | Onise              |
+ | <2016-03-16 Wed> | Anshu                | Hui                |
+ | <2016-03-23 Wed> | Sichi                | Quintin            |
+ | <2016-03-30 Wed> | Onise                | Prateek            |
+ | <2016-04-06 Wed> | Hui                  | Anshu              |
+ | <2016-04-13 Wed> | Quintin              | Free Spot!         |
+ | <2016-04-20 Wed> | Tae Bum, Chris       |                    |
 
-| Date             | Literature Presenter | Research Presenter |
-|------------------+----------------------+--------------------|
-| <2016-01-20 Wed> | Vasp Best Practices  | -                  |
-| <2016-01-27 Wed> | Prateek              | Chris              |
-| <2016-02-03 Wed> | -                    | -                  |
-| <2016-02-10 Wed> | Solomon              | Sichi              |
-| <2016-02-17 Wed> | -                    | -                  |
-| <2016-02-24 Wed> | Bill                 | Tae Bum            |
-| <2016-03-02 Wed> | -                    | -                  |
-| <2016-03-09 Wed> | ACS/APS-practice     | Onise              |
-| <2016-03-16 Wed> | Anshu                | Hui                |
-| <2016-03-23 Wed> | Sichi                | Quintin            |
-| <2016-03-30 Wed> | Onise                | Prateek            |
-| <2016-04-06 Wed> | Hui                  | Anshu              |
-| <2016-04-13 Wed> | Quintin              | Free Spot!         |
-| <2016-04-20 Wed> | Tae Bum, Chris       |                    |
+** Fall 2015                                                       :noexport:
 
-
-* Fall 2015                                                        :noexport:
-
-| Date             | Literature Presenter | Research Presenter                 |
-|------------------+----------------------+------------------------------------|
-| <2015-09-23 Wed> | Prateek              | Quintin                            |
-| <2015-09-30 Wed> | Sichi                | Solomon                            |
-| <2015-10-07 Wed> | Onise                | Tae Bum                            |
-| <2015-10-14 Wed> | Chris, Solomon       |                                    |
-| <2015-10-21 Wed> | Hui                  | Sichi                              |
-| <2015-10-28 Wed> | Quintin              | Anshu                              |
-| <2015-11-04 Wed> | AICHE-practice       | Prateek, Chris (Anshu @supergroup) |
-| <2015-11-11 Wed> | AICHE                | AICHE                              |
-| <2015-11-18 Wed> | Tae Bum              | Hui                                |
-| <2015-11-25 Wed> | Anshu                | Onise                              |
+ | Date             | Literature Presenter | Research Presenter                 |
+ |------------------+----------------------+------------------------------------|
+ | <2015-09-23 Wed> | Prateek              | Quintin                            |
+ | <2015-09-30 Wed> | Sichi                | Solomon                            |
+ | <2015-10-07 Wed> | Onise                | Tae Bum                            |
+ | <2015-10-14 Wed> | Chris, Solomon       |                                    |
+ | <2015-10-21 Wed> | Hui                  | Sichi                              |
+ | <2015-10-28 Wed> | Quintin              | Anshu                              |
+ | <2015-11-04 Wed> | AICHE-practice       | Prateek, Chris (Anshu @supergroup) |
+ | <2015-11-11 Wed> | AICHE                | AICHE                              |
+ | <2015-11-18 Wed> | Tae Bum              | Hui                                |
+ | <2015-11-25 Wed> | Anshu                | Onise                              |
 
 
