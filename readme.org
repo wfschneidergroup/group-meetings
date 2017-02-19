@@ -1,6 +1,18 @@
+
 * Group Meeting Schedule
 
 [[https://goo.gl/qFPzjG][Google calendar]]
+
+* Spring 2017
+
+| Date             | Literature Presenter | Research Presenter |
+|------------------+----------------------+--------------------|
+| <2017-03-01 Wed> | Yujia                | ---                |
+| <2017-03-15 Wed> | Prateek              | Sichi              |
+| <2017-03-29 Wed> | Hui                  | Anshu              |
+| <2017-04-12 Wed> | Sichi                | Prateek            |
+| <2017-04-19 Wed> | Anshu                | Hui                |
+
 
 * Spring 2016
 
