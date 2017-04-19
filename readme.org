@@ -10,11 +10,13 @@
 | <2017-02-01 Wed> | Gray                 |                    |
 | <2017-02-15 Wed> | Jeonghyun            |                    |
 | <2017-03-01 Wed> | Yujia                | ---                |
-| <2017-03-15 Wed> | Prateek              | Sichi              |
+| <2017-03-15 Wed> | ---                  | ---                |
 | <2017-03-29 Wed> | Hui                  | Anshu              |
 | <2017-04-12 Wed> | Sichi                | Prateek            |
-| <2017-04-19 Wed> | Anshu                | Andrew             |
-| <2017-05-03 Wed> | ---                  | Hui                |
+| <2017-04-26 Wed> | Anshu                | Andrew             |
+| <2017-05-10 Wed> | Prateek              | Hui                |
+| <2017-05-24 Wed> | ---                  | Sichi              |
+
 
 
 * Past Meetings
